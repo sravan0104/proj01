@@ -1,0 +1,129 @@
+body{
+}
+#main-body{
+background-image: url("C:/Users/sravan/Videos/fashion street/images/06.jpg");
+background-color: white;
+background-repeat: no-repeat;
+background-size: 100% ;
+}
+nav{
+  color: white;
+}
+
+#header-nav{
+  background-color: black ;
+  border-radius: 0;
+  border:0;
+  opacity: 0.8;
+  position: relative;
+  /*margin-top: 20px; */
+  /*margin-top: 50px;*/
+}
+#logo-image{
+  /*background-image: url('../images/logo.png');*/
+  font-family: papyrus,fantasy;
+  font-style: normal;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 300;
+  font-size: 1.5em; 
+}
+.navbar-header{
+  text-decoration: none;
+   /* position: absolute;
+  top: 50%;
+  transform: translateY(-50%);*/
+  }
+  @media(max-width:767px){
+  #button-arr{
+    float: right;
+  }
+}
+  .navbar-nav .navbar-default nav>li>a:hover{
+    color: hotpink;
+    font-weight: bold;
+  }
+  #home-alignment{
+  
+    vertical-align: center;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+#home-alignment h3{
+  color: #DC143C;
+}
+
+  #home-alignment h3,#home-alignment h1{
+    
+    line-height: 70px;
+    text-shadow: 1px 1px 1px white;
+  }
+  #span-border span{
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+
+#span-border span:hover{
+  background-color: #DC143C;
+  color: white;
+  font-size: 0.8em;
+  transition-duration: 0.5s;
+}
+#h5-sty {
+  margin-top: 100px;
+  font-weight: 300;
+  font-size: 1.6em;
+  margin-bottom: 0px;
+}
+#css01{
+ margin: 0px;
+ padding: 0px;
+ font-size: 2em;
+ color: #DC143C;
+}
+#shado{
+  text-shadow: 1px 1px 1px white;
+}
+@media(min-width: 769px) and (max-width: 990px){
+  #logo-image{
+    font-size: 1.2em;
+  }
+@media(max-width: 762px){
+  div#home-alignment h1,div#home-alignment h1>h3{
+    font-size: 16px;
+  }
+}  
+.sty{
+  width:100%;
+}
+#sty1{
+  background-color: yellow;
+  background-image: url("C:/Users/sravan/Videos/fashion street/images/07.jpg");
+  width: 33.33%;
+}
+#sty2{
+  background-image:url("C:/Users/sravan/Videos/fashion street/images/08.jpg");
+  width: 33.33%;
+}
+#sty3{
+  background-image:url("C:/Users/sravan/Videos/fashion street/images/09.jpg");
+  width: 33.33%;
+}
+#sty-none{
+}
+footer.shift{
+  list-style-type: none; 
+  float: left;
+  width: 16.66%;
+}
+.footer-color{
+  color: #DC143C <!important>;
+  list-style-type: none <!important>; 
+}
