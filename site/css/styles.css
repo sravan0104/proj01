@@ -6,6 +6,15 @@ background-color: white;
 background-repeat: no-repeat;
 background-size: 100% ;
 }
+#main-body1{
+background-image: url("C:/Users/sravan/Videos/fashion street/proj01/site/images/10.jpg");
+background-color: white;
+background-repeat: no-repeat;
+background-size: 100% ;
+}
+#main-body2{
+  background-color: #191970;
+}
 nav{
   color: white;
 }
@@ -88,6 +97,15 @@ nav{
  font-size: 2em;
  color: #DC143C;
 }
+#width-rows{
+  width: 100%;
+  font-weight: 600;
+  color: white;
+  line-height: 1.4em;
+}
+.color-h3{
+  color: #DC143C;
+}
 #shado{
   text-shadow: 1px 1px 1px white;
 }
@@ -125,5 +143,12 @@ footer.shift{
 }
 .footer-color{
   color: #DC143C <!important>;
-  list-style-type: none <!important>; 
+  list-style-type: none <!important>;
+}
+
+.sty-siz{
+  font-size: 16px;
+}
+.sty-psiz{
+  font-size: 14px;
 }
