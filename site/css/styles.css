@@ -1,19 +1,22 @@
 body{
 }
 #main-body{
-background-image: url("C:/Users/sravan/Videos/fashion street/proj01/site/images/06.jpg");
+background-image: url("../images/06.jpg");
 background-color: white;
 background-repeat: no-repeat;
 background-size: 100% ;
 }
 #main-body1{
-background-image: url("C:/Users/sravan/Videos/fashion street/proj01/site/images/10.jpg");
+background-image: url("../images/11.jpg");
 background-color: white;
 background-repeat: no-repeat;
 background-size: 100% ;
 }
 #main-body2{
-  background-color: #191970;
+  background-image: url("../images/05.jpg");
+  background-color: white;
+background-repeat: no-repeat;
+background-size: 100% ;
 }
 nav{
   color: white;
@@ -38,6 +41,7 @@ nav{
   transform: translateY(-50%);
   font-weight: 300;
   font-size: 1.5em; 
+  text-decoration: none;
 }
 .navbar-header{
   text-decoration: none;
@@ -74,7 +78,7 @@ nav{
   border: 2px solid black;
   border-radius: 25px;
   padding: 10px;
-  opacity: 0.8;
+  opacity: 1;
   cursor: pointer;
 
 }
@@ -91,6 +95,7 @@ nav{
   font-size: 1.6em;
   margin-bottom: 0px;
 }
+
 #css01{
  margin: 0px;
  padding: 0px;

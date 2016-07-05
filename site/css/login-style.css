@@ -31,7 +31,7 @@ $color-bg: #c0c0c0;
 }
 
 body {
-  background: $color-bg;
+  background-color: black;
   color: $color;
   font: 100%/1.5em "Varela Round", sans-serif;
   margin: 0;
@@ -98,7 +98,7 @@ input {
 }
 
 #login fieldset input[type="submit"] {
-  background: #33cc77;
+  background: #f95252;
   color: #fff;
   display: block;
   margin: 0 auto;
@@ -107,5 +107,5 @@ input {
 }
 
 #login fieldset input[type="submit"]:hover {
-  background: #28ad63;
+  background: black;
 }
